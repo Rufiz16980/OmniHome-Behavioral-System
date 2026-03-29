@@ -7,7 +7,6 @@ public class SmartLights implements Observer {
   @Override
   public void update() {
     turnOn();
-    System.out.println("Smart lights turned on due to motion.");
   }
 
   public boolean isOn() {

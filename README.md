@@ -38,7 +38,7 @@ src/
 
 ## Run and Test
 
-Commands to use once implementation is added:
+Commands to use once the Gradle wrapper is added:
 
 ```bash
 ./gradlew test
@@ -50,6 +50,13 @@ On Windows PowerShell:
 ```powershell
 .\gradlew.bat test
 .\gradlew.bat run
+```
+
+If Gradle is installed globally, these also work:
+
+```powershell
+gradle test
+gradle run
 ```
 
 ## Submission Notes
