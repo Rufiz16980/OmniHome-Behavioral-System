@@ -17,6 +17,7 @@ class ObserverPatternTest {
     SmartLights smartLights = new SmartLights();
     SmartAlarm smartAlarm = new SmartAlarm();
 
+    smartAlarm.setAlertStrategy("SILENT");
     motionSensor.addObserver(smartLights);
     motionSensor.addObserver(smartAlarm);
 
@@ -34,6 +35,7 @@ class ObserverPatternTest {
     SmartLights smartLights = new SmartLights();
     SmartAlarm smartAlarm = new SmartAlarm();
 
+    smartAlarm.setAlertStrategy("SILENT");
     motionSensor.addObserver(smartLights);
     motionSensor.addObserver(smartAlarm);
     motionSensor.removeObserver(smartAlarm);
@@ -52,6 +54,7 @@ class ObserverPatternTest {
     SmartLights smartLights = new SmartLights();
     SmartAlarm smartAlarm = new SmartAlarm();
 
+    smartAlarm.setAlertStrategy("SILENT");
     motionSensor.addObserver(smartLights);
     motionSensor.addObserver(smartAlarm);
 
